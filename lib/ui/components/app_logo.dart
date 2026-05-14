@@ -5,9 +5,12 @@ class AppLogo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(
-      "Boardgames",
-      style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+    return const Text(
+      'BoardGames',
+      style: TextStyle(
+        fontSize: 24,
+        fontWeight: FontWeight.bold,
+      ),
     );
   }
 }
